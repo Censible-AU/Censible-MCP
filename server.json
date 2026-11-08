@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "au.com.censible/censible",
+  "title": "Censible",
+  "description": "The Australian Census (2011, 2016, 2021) for any suburb, postcode or council, with projections.",
+  "version": "1.0.0",
+  "websiteUrl": "https://censible.com.au",
+  "repository": {
+    "url": "https://github.com/Censible-AU/Censible-MCP",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://raw.githubusercontent.com/Censible-AU/Censible-MCP/main/logo.png",
+      "mimeType": "image/png",
+      "sizes": ["400x400"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.censible.com.au/mcp"
+    }
+  ]
+}
